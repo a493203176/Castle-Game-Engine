@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<build_gradle_merge>
+  <!-- https://docs.tenjin.com/en/send-events/android.html -->
+  <dependencies>
+    <!--
+      Version: latest from https://github.com/tenjin/tenjin-android-sdk/releases
+      at the time of this writing.
+    -->
+    <dependency>implementation 'com.tenjin:android-sdk:1.12.22'</dependency>
+
+    <!--
+      Docs say to use these libraries:
+      https://github.com/tenjin/tenjin-android-sdk#android-advertising-id-aaid-and-install-referrer
+      SDK examples show these versions:
+      https://github.com/tenjin/tenjin-android-sdk-demo/blob/master/app/build.gradle
+    -->
+    <dependency>implementation 'com.android.installreferrer:installreferrer:2.2'</dependency>
+    <dependency>implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'</dependency>
+  </dependencies>
+</build_gradle_merge>

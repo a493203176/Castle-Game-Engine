@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 4.0//EN" "http://www.web3d.org/specifications/x3d-4.0.dtd">
+<X3D profile="Interchange" version="4.0"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+     xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-4.0.xsd">
+<head>
+</head>
+<Scene>
+	<Transform>
+		<MetadataSet containerField="metadata"
+			name="ContainerForAllMetadataValues">
+			<MetadataBoolean
+				name="my_boolean_value"
+				value="true" />
+			<MetadataString
+				name="my_string_value"
+				value='"apple" "" "banana"' />
+			<MetadataInteger
+				name="my_integer_value"
+				value="0 0 123" />
+			<MetadataDouble
+				name="my_double_value"
+				value="123.456" />
+			<MetadataString
+				name="fruit-type"
+				value='"banana"' />
+		</MetadataSet>
+	</Transform>
+</Scene>
+</X3D>

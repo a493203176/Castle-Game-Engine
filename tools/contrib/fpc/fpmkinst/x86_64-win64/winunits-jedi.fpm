@@ -1,0 +1,9 @@
+Name=winunits-jedi
+Version=3.2.2
+Checksum=1489437505
+CPU=x86_64
+OS=win64
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl,winunits-base|1489437504
+NeedLibC=Y
+FPMakeAddIn=N

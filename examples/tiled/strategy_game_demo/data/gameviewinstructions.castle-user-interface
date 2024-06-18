@@ -1,0 +1,129 @@
+{
+  "$$ClassName" : "TCastleUserInterface",
+  "FullSize" : true,
+  "Name" : "Group1",
+  "$Children" : [
+    {
+      "$$ClassName" : "TCastleRectangleControl",
+      "ColorPersistent" : {
+        "$$ClassName" : "TCastleColorPersistent",
+        "Alpha" : 7.5000000000000000E-001,
+        "Blue" : 0.0000000000000000E+000,
+        "Green" : 0.0000000000000000E+000,
+        "Red" : 0.0000000000000000E+000
+      },
+      "FullSize" : true,
+      "Name" : "RectangleControl1"
+    },
+    {
+      "$$ClassName" : "TCastleImageControl",
+      "Content" : {
+        "$$ClassName" : "TCastleImagePersistent",
+        "URL" : "castle-data:/images/parchment_alpha.png"
+      },
+      "HeightFraction" : 1.0000000000000000E+000,
+      "HorizontalAnchorParent" : "hpMiddle",
+      "HorizontalAnchorSelf" : "hpMiddle",
+      "Name" : "ImageControl1",
+      "ProportionalScaling" : "psFit",
+      "Stretch" : true,
+      "VerticalAnchorParent" : "vpMiddle",
+      "VerticalAnchorSelf" : "vpMiddle",
+      "WidthFraction" : 1.0000000000000000E+000,
+      "$Children" : [
+        {
+          "$$ClassName" : "TCastleLabel",
+          "FontSize" : 2.2000000000000000E+001,
+          "HorizontalAnchorParent" : "hpMiddle",
+          "HorizontalAnchorSelf" : "hpMiddle",
+          "MaxWidth" : 1.0000000000000000E+003,
+          "Name" : "LabelContent",
+          "Text" : [
+            "Strategy game demo, using Castle Game Engine and maps done in Tiled map editor.",
+            "",
+            "- Play as one human vs another.",
+            "",
+            "- Players move in turn (first \"humans\" move, then \"aliens\" move, then \"humans\" again...). In each turn a player can move as many units as (s)he wants, as the movement points of all units are reset at each turn.",
+            "",
+            "- The goal is to simply eliminate all enemy units.",
+            "",
+            "- Each unit has an attack, life (hit points), and a number of movement points it can spend per turn.",
+            "",
+            "- You cannot walk over a river (blue tiles). All other terrain types have cost 1.",
+            "",
+            "- Moving your unit onto an enemy square performs an attack. Attacking requires you to have at least one movement point, and always exhausts all you movement points. The enemy unit \"Life\" is decreased by an attacker \"Attack\" number. Enemy dies if \"Life\" drops to zero.",
+            "",
+            "Note:",
+            "",
+            "- In this demo, you can choose an orthogonal, isometric or hexagonal map. The game works in all cases, thanks to the Castle Game Engine API that handles all possible map types using a uniform API.",
+            "",
+            "- Play around with the demo source code, and see if you can implement more options! E.g. more terrain types with varying costs, different attack/defense mechanics, different unit types (flying, attacking from a distance etc.)."
+          ],
+          "TranslationPersistent" : {
+            "$$ClassName" : "TCastleVector2Persistent",
+            "Y" : -2.0000000000000000E+001
+          },
+          "VerticalAnchorParent" : "vpMiddle",
+          "VerticalAnchorSelf" : "vpMiddle"
+        },
+        {
+          "$$ClassName" : "TCastleButton",
+          "Caption" : "Close",
+          "CustomBackgroundDisabled" : {
+            "$$ClassName" : "TCastleImagePersistent"
+          },
+          "CustomBackgroundFocused" : {
+            "$$ClassName" : "TCastleImagePersistent"
+          },
+          "CustomBackgroundNormal" : {
+            "$$ClassName" : "TCastleImagePersistent"
+          },
+          "CustomBackgroundPressed" : {
+            "$$ClassName" : "TCastleImagePersistent"
+          },
+          "FontSize" : 3.0000000000000000E+001,
+          "HorizontalAnchorParent" : "hpRight",
+          "HorizontalAnchorSelf" : "hpRight",
+          "Image" : {
+            "$$ClassName" : "TCastleImagePersistent"
+          },
+          "Name" : "ButtonClose",
+          "TranslationPersistent" : {
+            "$$ClassName" : "TCastleVector2Persistent",
+            "X" : -6.0000000000000000E+001,
+            "Y" : 5.0000000000000000E+001
+          }
+        },
+        {
+          "$$ClassName" : "TCastleLabel",
+          "ColorPersistent" : {
+            "$$ClassName" : "TCastleColorPersistent",
+            "Red" : 5.0196081399917603E-001
+          },
+          "CustomFont" : "Font1",
+          "FontSize" : 6.0000000000000000E+001,
+          "HorizontalAnchorParent" : "hpMiddle",
+          "HorizontalAnchorSelf" : "hpMiddle",
+          "Name" : "LabelHeader",
+          "Text" : [
+            "\"Aliens vs Humans\""
+          ],
+          "TranslationPersistent" : {
+            "$$ClassName" : "TCastleVector2Persistent",
+            "Y" : -7.0000000000000000E+001
+          },
+          "VerticalAnchorParent" : "vpTop",
+          "VerticalAnchorSelf" : "vpTop",
+          "$NonVisualComponents" : [
+            {
+              "$$ClassName" : "TCastleFont",
+              "Name" : "Font1",
+              "OptimalSize" : 100,
+              "URL" : "castle-data:/fonts/DejaVuSerif-Bold.ttf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

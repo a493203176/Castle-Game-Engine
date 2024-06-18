@@ -1,0 +1,33 @@
+{
+  "$$ClassName" : "TCastleTransform",
+  "Name" : "RootTransform",
+  "$Children" : [
+    {
+      "$$ClassName" : "TCastleScene",
+      "ExposeTransforms" : [
+      ],
+      "Name" : "SceneTntBox",
+      "RenderOptions" : {
+        "$$ClassName" : "TCastleScene.TSceneRenderOptions"
+      },
+      "URL" : "castle-data:/extra_objects/tnt.gltf",
+      "$Behaviors" : [
+        {
+          "$$ClassName" : "TCastleBoxCollider",
+          "Name" : "BoxCollider1",
+          "SizeScale" : 8.9999997615814209E-001
+        },
+        {
+          "$$ClassName" : "TCastleRigidBody",
+          "Name" : "RigidBody1"
+        }
+      ]
+    }
+  ],
+  "$Behaviors" : [
+    {
+      "$$ClassName" : "TCastleSoundSource",
+      "Name" : "SoundSource1"
+    }
+  ]
+}

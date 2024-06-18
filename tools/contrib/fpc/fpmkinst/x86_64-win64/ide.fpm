@@ -1,0 +1,9 @@
+Name=ide
+Version=3.2.2
+Checksum=1489437531
+CPU=x86_64
+OS=win64
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl,rtl-extra|1489437492,fv|1489437513,chm|1489437498,regexpr|1489437516,fcl-process|1489437507
+NeedLibC=N
+FPMakeAddIn=N

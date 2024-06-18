@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Specify basic information about the project, including how this project is build.
+See https://castle-engine.io/project_manifest for documentation of this file.
+-->
+
+<project name="fpc-cge"
+  standalone_source="fpc_cge.lpr"
+  qualified_name="io.castleengine.fpc.cge">
+  <compiler_options>
+    <defines>
+      <define>CASTLE_STRICT_CLI</define>
+    </defines>
+  </compiler_options>
+  <data exists="false" />
+</project>

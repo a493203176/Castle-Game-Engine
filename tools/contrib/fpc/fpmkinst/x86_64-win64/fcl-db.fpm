@@ -1,0 +1,9 @@
+Name=fcl-db
+Version=3.2.2
+Checksum=1489437501
+CPU=x86_64
+OS=win64
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -dx86_64 -o -dRELEASE
+Depends=rtl,fcl-base|1489437493,fcl-xml|1489437494,rtl-objpas|1489437492,rtl-extra|1489437492,ibase|1489437498,mysql|1489437499,odbc|1489437499,oracle|1489437499,postgres|1489437499,sqlite|1489437499,dblib|1489437498,fcl-json|1489437499
+NeedLibC=N
+FPMakeAddIn=N

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Specify basic information about the project, including how this project is build.
+See https://castle-engine.io/project_manifest for documentation of this file.
+-->
+
+<project name="build_3d_object_by_code"
+  standalone_source="build_3d_object_by_code.dpr"
+  caption="Build 3D Object By Code"
+  qualified_name="io.castleengine.build.object.by.code"
+>
+  <data exists="false" />
+</project>
